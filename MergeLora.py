@@ -15,9 +15,9 @@ from peft import PeftModel
 
 import torch.nn as nn
 
-model_path1 = r'C:\Users\User\Documents\Projects\Mergekit\axolotl\gemma'
-lora_path = r'C:\Users\User\Documents\Projects\Mergekit\axolotl\lora'
-save_path = r'C:\Users\User\Documents\Projects\Mergekit\axolotl\out'
+model_path1 = '/home/kasm-user/Desktop/google-gemma-2-9b'
+lora_path = '/home/kasm-user/Desktop/google-gemma-2-9b/lora/testinglora'
+save_path = '/home/kasm-user/Desktop/google-gemma-2-9b/lora/testinglora/out'
 
 max_shard_size = "4000MB"  # Output shard size
 
